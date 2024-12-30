@@ -16,6 +16,10 @@ public class MainTest {
         assertEquals(Main.isPalindrome(11212), false);
     }
 
+
+
+
+
     @DisplayName("Mükemmel Sayılar Testi")
     @Test
     public void testIsPerfectNumber(){
@@ -26,6 +30,8 @@ public class MainTest {
 
     }
 
+
+
     @DisplayName("Sayıları Kelimelere Cevirme Testi")
     @Test
     public void testNumberToWords(){
@@ -33,4 +39,6 @@ public class MainTest {
         assertEquals(Main.numberToWords(1010), "One Zero One Zero");
         assertEquals(Main.numberToWords(-12), "Invalid Value");
     }
+
+
 }
